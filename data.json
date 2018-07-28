@@ -1,0 +1,7 @@
+{
+  "files": [
+    {"name": "first", "id": 555},
+    {"name": "second", "id": 666},
+    {"name": "third", "id": 777}
+  ]
+}
