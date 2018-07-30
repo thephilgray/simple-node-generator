@@ -9,28 +9,28 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0-beta.54",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "del": "^3.0.0",
+    "inquirer": "^6.0.0",
+    "mkdirp": "^0.5.1",
+    "pug": "^2.0.3"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.54",
-    "@babel/polyfill": "^7.0.0-beta.54",
     "@babel/preset-env": "^7.0.0-beta.54",
     "@babel/register": "^7.0.0-beta.54",
-    "del": "^3.0.0",
     "eslint": "^5.2.0",
-    "mkdirp": "^0.5.1",
-    "prettier": "^1.13.7",
-    "pug": "^2.0.3"
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-node": "^7.0.1",
+    "prettier": "^1.13.7"
   },
   "babel": {
     "presets": [
       "@babel/preset-env"
     ]
-  },
-  "eslint": {
-    "extends": [
-      "eslint-config-with-prettier"
-    ]
-  },
-  "dependencies": {
-    "eslint-config-with-prettier": "^4.1.0"
   }
 }
